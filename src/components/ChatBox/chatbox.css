@@ -1,0 +1,94 @@
+.chatbox-section {
+  background-color: var(--primary-color);
+  width: 50%;
+  max-height: 30rem;
+  overflow: auto;
+  margin: 2rem 1.4rem;
+}
+.chatbox-header {
+  top: 0;
+  background-color: var(--primary-color);
+  position: sticky;
+  z-index: 1;
+}
+.fa-print {
+  font-size: 2rem;
+  color: #ed2012;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.badge {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0ef40e;
+  top: 30px;
+  right: -1px;
+  outline: 2.5px solid var(--primary-color);
+}
+.message {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-align: justify;
+  padding: 12px 2rem;
+  opacity: 0.9;
+  border-radius: 3px 2rem 2rem 2rem;
+  background: rgb(197, 237, 250);
+}
+
+.from-message-section {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+.to-message-section {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+  gap: 10px;
+}
+.to-message-section .message {
+  border-radius: 2rem 3px 2rem 2rem;
+}
+.chat-time {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 7px;
+  margin-left: 1.3rem;
+  color: grey;
+  font-size: 0.8rem;
+}
+.to-message-section .chat-time {
+  justify-content: end;
+  margin-top: 7px;
+  margin-right: 1.6rem;
+  color: grey;
+  font-size: 0.8rem;
+}
+.btn-send {
+  color: var(--primary-color);
+  background: green;
+}
+.msg-input {
+  width: 100%;
+  padding: 5px;
+}
+.chatbox-footer {
+  background-color: var(--primary-color);
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  .chatbox-section {
+    margin: 1.5rem auto;
+    width: 85%;
+  }
+}

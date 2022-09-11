@@ -38,6 +38,9 @@ body {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.align-i-start {
+  align-items: flex-start;
+}
 .gap-10px {
   gap: 10px;
 }
@@ -49,4 +52,27 @@ body {
 }
 .gap-3rem {
   gap: 3rem;
+}
+.padding-10px {
+  padding: 10px;
+}
+.padding-1rem {
+  padding: 1rem;
+}
+hr {
+  border: none;
+  border-bottom: 1px solid #d5d5d5;
+}
+.pos-relative {
+  position: relative;
+}
+/* Content Section */
+.content-section {
+  display: flex;
+  align-items: flex-start;
+}
+@media (max-width: 1000px) {
+  .content-section {
+    flex-direction: column;
+  }
 }
