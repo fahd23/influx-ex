@@ -1,16 +1,20 @@
-*,
-*::before,
-*::after {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #ececec;
+  --text-color: #080808;
+  --accent-color: #61dafb;
 }
 html {
   font-size: 16px;
   scroll-behavior: smooth;
 }
 body {
-  background-color: #f3f3f3;
+  background-color: #ececec;
 }
 /* Utilities Classes*/
 .text-align-right {
@@ -26,8 +30,13 @@ body {
   align-items: center;
 }
 .flex-jc-btwn {
-  display: flex;
   justify-content: space-between;
+}
+.flex-d-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .gap-10px {
   gap: 10px;
