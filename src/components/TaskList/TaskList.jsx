@@ -11,9 +11,9 @@ const TaskItem = () => {
           <h4>Wash my car </h4>
           <p>Written by bob</p>
         </div>
-        <div className="rejected-badge">REJECTED</div>
-        <div className="planned-badge">Planned</div>
-        <div className="latest-rank-badge">Latest Task</div>
+        <div className="task-badge rejected-badge">Rejected</div>
+        <div className="task-badge planned-badge">Planned</div>
+        <div className="task-badge latest-rank-badge">Latest Task</div>
       </div>
     </div>
   );

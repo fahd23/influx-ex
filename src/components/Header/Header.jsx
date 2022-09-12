@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header flex flex-jc-btwn flex-ai-center flex-wrap">
       <div className="flex flex-ai-center gap-2rem">
         <div className="plane flex flex-ai-center flex-jc-center">
-          <i class="fa-solid fa-plane"></i>
+          <i className="fa-solid fa-plane"></i>
         </div>
         <div>
           <h2 className="header-title">Analytics Dashboard</h2>
@@ -18,7 +18,7 @@ const Header = () => {
       </div>
       <div className="flex gap-1rem">
         <button className="btn btn-star">
-          <i class="fa-solid fa-star"></i>
+          <i className="fa-solid fa-star"></i>
         </button>
         <button className="btn btn-success flex flex-ai-center gap-1rem">
           <span className="plus-sign">+</span> <span>Create New</span>

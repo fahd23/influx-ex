@@ -17,7 +17,7 @@ export const FromMessage = () => {
           quam, rem, tempora odio illum doloribus voluptas ullam eveniet
         </p>
         <p className="chat-time">
-          <i class="fa-solid fa-calendar-days"></i> 11:01 P.M | Yesterday
+          <i className="fa-solid fa-calendar-days"></i> 11:01 P.M | Yesterday
         </p>
       </div>
     </div>
