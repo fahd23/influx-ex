@@ -75,6 +75,20 @@ export const appData = {
     {
       id: 2,
       person: {
+        id: 2,
+        name: "John Wick",
+        avatar:
+          "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?cs=srgb&dl=pexels-bruno-salvadori-2269872.jpg&fm=jpg",
+        desc: "John Wick's Image",
+      },
+      message:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quam, rem, tempora odio illum doloribus voluptas ullam eveniet",
+      send_at: "11:02 P.M | Yesterday",
+      is_from_message: false,
+    },
+    {
+      id: 3,
+      person: {
         id: 1,
         name: "Viggo",
         avatar:
@@ -87,7 +101,7 @@ export const appData = {
       is_from_message: true,
     },
     {
-      id: 3,
+      id: 4,
       person: {
         id: 2,
         name: "John Wick",

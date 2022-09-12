@@ -59,6 +59,11 @@
   width: 2.2rem;
   height: 2.2rem;
 }
+.task-items {
+  background-color: var(--primary-color);
+  border: none;
+  border-bottom: 0.1px solid grey;
+}
 @media (max-width: 1000px) {
   .tasklist-section {
     margin: 1.5rem auto;
