@@ -47,7 +47,7 @@
     display: none;
   }
   .header {
-    height: 12rem;
+    height: 13rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
