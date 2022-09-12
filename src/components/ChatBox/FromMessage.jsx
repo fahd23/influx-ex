@@ -4,11 +4,13 @@ export const FromMessage = () => {
   return (
     <div className="from-message-section">
       <div className="pos-relative">
-        <img
-          className="profile-image"
-          src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?cs=srgb&dl=pexels-bruno-salvadori-2269872.jpg&fm=jpg"
-          alt="profile-image"
-        />
+        <figure>
+          <img
+            className="profile-image"
+            src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?cs=srgb&dl=pexels-bruno-salvadori-2269872.jpg&fm=jpg"
+            alt=""
+          />
+        </figure>
         <div className="badge"></div>
       </div>
       <div>
